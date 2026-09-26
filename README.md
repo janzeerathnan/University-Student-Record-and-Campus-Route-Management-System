@@ -40,8 +40,6 @@ This project was developed as a practical assignment for the DSA course and demo
 │   ├── StudentBST.java           # Binary search tree for sorted records
 │   ├── StudentHashTable.java     # Hash table for fast lookup
 │   └── CampusGraph.java          # Campus network graph with BFS
-├── Explaination.txt               # Beginner-friendly DSA concept guide
-├── TEAM_CONTRIBUTIONS.md          # Member file allocation and GitHub workflow
 └── README.md                      # Project documentation
 ```
 
@@ -92,8 +90,6 @@ This project was developed as a practical assignment for the DSA course and demo
 - Implemented adjacency-list graph representation
 - Developed BFS algorithm for route exploration
 - Enabled campus network visualization and connectivity analysis
-
-For the assigned source files, suggested Git branches, and a step-by-step GitHub push guide, see [TEAM_CONTRIBUTIONS.md](TEAM_CONTRIBUTIONS.md).
 
 ##  How to Run
 
@@ -185,7 +181,7 @@ Educational project for SLTC Research University - Department of Information Tec
 - **Course:** Data Structures and Algorithms
 - **University:** SLTC Research University
 - **Department:** Information Technology
-- **Semester:** [Current Semester]
+- **Semester:** 5th Semester
 
 
 For questions or support, contact any team member at the Department of Information Technology.
