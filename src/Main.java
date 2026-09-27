@@ -35,14 +35,21 @@ public class Main {
     }
 
     private void printMenu() {
-        System.out.println("\n1. Add Student Record                 9. Search Student (Hashing)");
-        System.out.println("2. Update Student Record             10. Add Campus Location");
-        System.out.println("3. Delete Student Record             11. Remove Campus Location");
-        System.out.println("4. Display Records (Linked List)     12. Add Campus Connection");
-        System.out.println("5. Add Service Request                13. Remove Campus Connection");
-        System.out.println("6. Process Next Service Request       14. Display Campus Network");
-        System.out.println("7. Display Recent Actions (Stack)    15. Traverse Campus (BFS)");
-        System.out.println("8. Display Students (BST)            16. Exit");
+        System.out.println("\n1. Add Student Record :");
+        System.out.println("2. Update Student Record :");
+        System.out.println("3. Delete Student Record :");
+        System.out.println("4. Display Records (Linked List) :");
+        System.out.println("5. Add Service Request :");
+        System.out.println("6. Process Next Service Request :");
+        System.out.println("7. Display Recent Actions (Stack) :");
+        System.out.println("8. Display Students (BST) :");
+        System.out.println("10. Add Campus Location :");
+        System.out.println("11. Remove Campus Location :");
+        System.out.println("12. Add Campus Connection :");
+        System.out.println("13. Remove Campus Connection :");
+        System.out.println("14. Display Campus Network :");
+        System.out.println("15. Traverse Campus (BFS): ");
+        System.out.println("16. Exit");
     }
 
     private void addStudent() {
