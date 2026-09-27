@@ -34,13 +34,13 @@ This project was developed as a practical assignment for the DSA course and demo
 ├── src/
 │   ├── Main.java                 # Console menu and application controller
 │   ├── Student.java              # Student record model
-│   ├── StudentLinkedList.java     # Linked-list-based student storage
+│   ├── StudentLinkedList.java    # Linked-list-based student storage
 │   ├── ActionStack.java          # Recent action tracking using stack
 │   ├── ServiceQueue.java         # Service request queue (FIFO)
 │   ├── StudentBST.java           # Binary search tree for sorted records
 │   ├── StudentHashTable.java     # Hash table for fast lookup
 │   └── CampusGraph.java          # Campus network graph with BFS
-└── README.md                      # Project documentation
+└── README.md                     # Project documentation
 ```
 
 ### Key Classes & Data Structures
@@ -91,68 +91,6 @@ This project was developed as a practical assignment for the DSA course and demo
 - Developed BFS algorithm for route exploration
 - Enabled campus network visualization and connectivity analysis
 
-##  How to Run
-
-### Prerequisites
-- Java Development Kit (JDK) 8 or higher installed
-- Command line/terminal access
-
-### Compilation
-
-From the project root directory:
-
-```bash
-javac -d out src/*.java
-```
-
-Or compile individual files:
-
-```bash
-javac -d out src/Main.java src/Student.java src/StudentLinkedList.java src/ActionStack.java src/ServiceQueue.java src/StudentBST.java src/StudentHashTable.java src/CampusGraph.java
-```
-
-### Execution
-
-```bash
-java -cp out Main
-```
-
-The application will launch a menu-driven console interface where you can:
-1. Manage student records (add, update, delete, search)
-2. View recent actions
-3. Process service requests
-4. Browse sorted student lists
-5. Explore campus routes via graph traversal
-
-## Input Validation
-
-The system includes validation for:
-- ✓ Empty or null data
-- ✓ Duplicate student IDs
-- ✓ Invalid marks/grades
-- ✓ Missing records
-- ✓ Out-of-range values
-- ✓ Invalid menu selections
-
-## Learning Outcomes
-
-This project demonstrates practical implementation of:
-- **Linked Lists** for dynamic data storage
-- **Stacks** for last-in-first-out operations
-- **Queues** for first-in-first-out processing
-- **Binary Search Trees** for sorted data organization
-- **Hash Tables** for efficient lookup operations
-- **Graphs** for network representation
-- **Graph Traversal** algorithms (BFS)
-- **Object-Oriented Design** principles in Java
-
-## Notes
-
-- The menu-driven program is designed for console interaction
-- Each data structure solves a distinct problem within the overall system
-- The modular design allows independent testing of each component
-- This project showcases practical understanding of DSA in Java
-- Extensible architecture allows for future enhancements
 
 ## Workflow Integration
 
@@ -171,17 +109,3 @@ Campus Routes (Graph + BFS)
     ↓
 Output Display
 ```
-
-## License
-
-Educational project for SLTC Research University - Department of Information Technology
-
-## Course Information
-
-- **Course:** Data Structures and Algorithms
-- **University:** SLTC Research University
-- **Department:** Information Technology
-- **Semester:** 5th Semester
-
-
-For questions or support, contact any team member at the Department of Information Technology.
